@@ -1,0 +1,27 @@
+{
+  "manifest_version": 2,
+  "name": "Quotee",
+  "description": "Save quotes and stuff",
+  "version": "1.1",
+  "background" : {
+    "scripts": ["build/backgroundBundle.js"]
+  },
+  "browser_action": {
+    "default_icon": "assets/icon-48.png"
+  },
+  "icons": {
+    "16":  "assets/icon-16.png",
+    "48":  "assets/icon-48.png",
+    "128":  "assets/icon-128.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["build/contentScriptBundle.js"]
+    }
+  ],
+  "permissions": [
+    "contextMenus",
+    "storage"
+  ]
+}

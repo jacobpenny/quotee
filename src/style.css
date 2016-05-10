@@ -1,0 +1,84 @@
+.pure-g [class *= "quote-text"] {
+  color: #111;
+  font-size: 130%;
+}
+
+code {
+  font-family: monospace;
+  font-size: 100%;
+}
+
+body {
+  background: #FDF6E3;
+}
+
+.header {
+  background: #002B36;
+  padding: 10px 10px 10px 20px;
+  margin-bottom: 50px;
+}
+
+.header h2 {
+  color: #CB4B16;
+}
+
+.delete-all {
+  text-align: right;
+  color: #CB4B16;
+  display: block;
+  cursor: pointer;
+}
+
+.delete-quote-bar {
+  text-align: right;
+}
+
+.delete-quote-bar span {
+  cursor: pointer;
+}
+
+.menu {
+  text-align: right;
+  color: #CB4B16;
+}
+
+.no-quotes-container {
+  text-align: center;
+  padding-top: 100px;
+}
+
+.no-quotes-container p {
+  font-size: 120%;
+}
+
+.quote-box {
+  width: 60%;
+  background: #EEE8D5;
+  margin: 0px auto 10px auto;
+  padding: 6px 6px 2px 6px;
+}
+
+.quote-text {
+  color: #111;
+  margin-bottom: 10px;
+}
+
+.quote-text p {
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+
+.quote-text a {
+  color: #111;
+  margin-bottom: 10px;
+}
+
+.quote-link {
+  font-size: 80%;
+  color: #111;
+}
+
+.date-box {
+  text-align: right;
+  font-style: italic;
+}
